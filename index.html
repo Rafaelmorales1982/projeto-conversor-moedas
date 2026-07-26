@@ -40,11 +40,11 @@
         <!--Campo para colocar valor-->
         <label for="valor">
             <p><span>Valor</span></p>
-            <input placeholder="R$ 10.000,00" type="text">
+            <input class="input-currency" placeholder="R$ 10.000,00" type="text">
         </label>
 
         <!--Botão converter-->
-        <button class="button-convert">Converter</button>
+        <button id="convert-btn" class="button-convert">Converter</button>
 
         <!--Seção da conversão-->
         <section class="convert-result">
@@ -59,7 +59,7 @@
             <div class="currency-box">
                 <img src="./assets/img/logo-estados-unidos.png" alt="logo estados unidos">
                 <p class="currency">Dólar Americano</p>
-                <p class="currency-value">US$ 0.0</p>
+                <p class="currency-value">US$ <span class="result-converted"> 0.0 </span></p>
             </div>
         </section>
     </main>
