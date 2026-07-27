@@ -28,7 +28,6 @@ async function convertMoney() {
   const euroToday = Number(data.EURBRL.bid);
 
   
-
   const value = Number(inputCurrency.value);
 
   if (currencySelect.value === "dolar") {
